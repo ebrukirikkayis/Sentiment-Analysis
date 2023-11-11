@@ -8,7 +8,7 @@ Duygu analizinde öznitelik seçimi, metin içerisinde sıklıkla tekrarlanan ni
 
 ![rnn](./rnn.jpg).
 
-Sıralı verileri modellemeye yönelik bir Derin Öğrenme yaklaşımı Tekrarlayan Sinir Ağlarıdır (RNN). Standart sinir ağlarındaki tüm girdi ve çıktılar birbirinden bağımsızdır, ancak bazı durumlarda, örneğin bir cümlenin sonraki kelimesini tahmin ederken, önceki kelimeler gereklidir ve bu nedenle önceki kelimelerin hatırlanması gerekir. RNN'nin en önemli bileşeni, bir dizi hakkındaki belirli bilgileri hatırlayan Gizli durumudur. RNN mimarisi çözmeye çalıştığımız soruna göre değişiklik gösterebilir. Tek bir girdi ve çıktıya ya da çok sayıda girdi/ çıktı içeren modeller vardır.
+Sıralı verileri modellemeye yönelik bir Derin Öğrenme yaklaşımı Tekrarlayan Sinir Ağlarıdır (RNN). Standart sinir ağlarındaki tüm girdi ve çıktılar birbirinden bağımsızdır, ancak bazı durumlarda, örneğin bir cümlenin sonraki kelimesini tahmin ederken, önceki kelimeler gereklidir ve bu nedenle önceki kelimelerin hatırlanması gerekir. RNN'nin en önemli bileşeni, bir dizi hakkındaki belirli bilgileri hatırlayan Gizli durumudur. RNN mimarisi çözmeye çalıştığımız soruna göre değişiklik gösterebilir. Tek girdi ve çıktıya ya da çok sayıda girdi/ çıktı içeren modeller vardır.
 
 * One to one : Burada sadece bir girdi çıktı çifti vardır. Geleneksel sinir ağlarında birebir mimari kullanılmaktadır.
 * One to many: Bire çok ağdaki tek bir giriş, çok sayıda çıktıyla sonuçlanabilir.
